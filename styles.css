@@ -1,0 +1,45 @@
+.sButton{
+    color:gray;
+    margin:0;
+    padding:10px;
+}
+input{
+    padding:5px;
+}
+form{
+    display: grid;
+    grid-template-areas: "a"
+                        "b"
+                        "c"
+                        "d"
+                        "e"
+                        "f"
+                        "g"
+                        ;
+}
+.top{
+    grid-area:a;
+}
+.Q1{
+    grid-area:b;
+    
+}
+.Q2{
+    grid-area:c;
+
+}
+.Q3{
+    grid-area:d;
+
+}
+.Q4{
+    grid-area:e;
+
+}
+.Q5{
+    grid-area:f;
+
+}
+.S{
+    grid-area:g;
+}
