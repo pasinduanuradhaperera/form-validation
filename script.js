@@ -27,12 +27,13 @@ function formValidate(){
     if(password == ""){
         alert("Password should fill");
         return false;
-        if(confirmPassword != password){
+        
+    }else if(confirmPassword != password){
             alert("Password not match");
             return false;
             
         }
-    }
+    
     return true;
     
 }
