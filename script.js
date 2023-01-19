@@ -1,6 +1,5 @@
 function formValidate(){
-  console.log("dsfdfdsf");
- alert("pasindu");
+    console.log("dfkdshf ")
     var fname = document.getElementById("fname").value;
     var lname = document.getElementById("lname").value;
     var email = document.getElementById("email").value;
